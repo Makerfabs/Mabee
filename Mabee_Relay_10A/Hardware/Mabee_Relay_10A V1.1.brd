@@ -3773,6 +3773,9 @@ design rules under a new name.</description>
 <vertex x="-1.6" y="40.670021875"/>
 </polygon>
 </signal>
+<signal name="NC">
+<contactref element="J1" pad="2"/>
+</signal>
 </signals>
 </board>
 </drawing>

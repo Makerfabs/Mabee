@@ -1974,6 +1974,8 @@ wave soldering</description>
 <wire x1="0" y1="76.2" x2="132.08" y2="76.2" width="0.1524" layer="97"/>
 <wire x1="132.08" y1="76.2" x2="132.08" y2="0" width="0.1524" layer="97"/>
 <wire x1="132.08" y1="0" x2="0" y2="0" width="0.1524" layer="97"/>
+<text x="110.49" y="72.39" size="1.016" layer="97">Mabee_Relay_10A V1.1</text>
+<text x="110.49" y="69.85" size="1.016" layer="97">www.makerfabs.com</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="118.11" y="31.75"/>
@@ -2150,6 +2152,13 @@ wave soldering</description>
 <pinref part="AC1" gate="G$1" pin="1"/>
 <wire x1="67.31" y1="31.75" x2="54.61" y2="31.75" width="0.1524" layer="91"/>
 <label x="54.61" y="31.75" size="1.27" layer="95"/>
+</segment>
+</net>
+<net name="NC" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="113.03" y1="33.02" x2="109.22" y2="33.02" width="0.1524" layer="91"/>
+<label x="109.22" y="33.02" size="0.8128" layer="95" ratio="6"/>
 </segment>
 </net>
 </nets>

@@ -1017,6 +1017,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="66.04" x2="76.2" y2="66.04" width="0.1524" layer="97"/>
 <wire x1="76.2" y1="66.04" x2="76.2" y2="0" width="0.1524" layer="97"/>
 <wire x1="76.2" y1="0" x2="0" y2="0" width="0.1524" layer="97"/>
+<text x="10.16" y="5.08" size="1.4224" layer="97">Mabee_Button V1.1</text>
+<text x="10.16" y="2.54" size="1.4224" layer="97">www.makerfabs.com</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="69.85" y="15.24" smashed="yes">
@@ -1123,7 +1125,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="64.77" y1="19.05" x2="58.42" y2="19.05" width="0.1524" layer="91"/>
-<label x="58.42" y="19.05" size="1.27" layer="95"/>
+<label x="58.42" y="19.05" size="0.8128" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -1136,6 +1138,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="64.77" y1="16.51" x2="58.42" y2="16.51" width="0.1524" layer="91"/>
+<label x="58.42" y="16.51" size="0.8128" layer="95"/>
 </segment>
 </net>
 </nets>

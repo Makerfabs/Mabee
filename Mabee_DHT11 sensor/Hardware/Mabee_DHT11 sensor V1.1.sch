@@ -2008,6 +2008,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="97"/>
 <wire x1="99.06" y1="60.96" x2="99.06" y2="0" width="0.1524" layer="97"/>
 <wire x1="99.06" y1="0" x2="0" y2="0" width="0.1524" layer="97"/>
+<text x="76.2" y="58.42" size="1.016" layer="97">Mabee_DHT11 sensor V1.1</text>
+<text x="76.2" y="55.88" size="1.016" layer="97">www.makerfabs.com</text>
 </plain>
 <instances>
 <instance part="DHT11" gate="G$1" x="54.61" y="25.4" smashed="yes">
@@ -2133,14 +2135,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="21.59" x2="74.93" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="21.59" x2="80.01" y2="21.59" width="0.1524" layer="91"/>
 <label x="80.01" y="21.59" size="1.016" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="NC" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="19.05" x2="74.93" y2="19.05" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="19.05" x2="80.01" y2="19.05" width="0.1524" layer="91"/>
+<label x="80.01" y="19.05" size="1.016" layer="95"/>
 </segment>
 </net>
 </nets>

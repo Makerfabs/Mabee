@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4881,6 +4881,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="127" y1="91.44" x2="127" y2="40.64" width="0.1524" layer="97"/>
 <wire x1="127" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="97"/>
 <wire x1="15.24" y1="40.64" x2="15.24" y2="91.44" width="0.1524" layer="97"/>
+<text x="104.14" y="88.9" size="1.016" layer="97" ratio="7">Mabee_Slide Potenimeter V1.1</text>
+<text x="104.14" y="86.36" size="1.016" layer="97" ratio="7">www.makerfabs.com</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="113.03" y="64.77"/>
