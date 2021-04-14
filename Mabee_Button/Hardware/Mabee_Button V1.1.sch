@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1110,10 +1110,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="OUT" class="0">
 <segment>
-<pinref part="BTN" gate="G$1" pin="4"/>
-<wire x1="35.56" y1="43.18" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="BTN" gate="G$1" pin="3"/>
 <wire x1="17.78" y1="43.18" x2="11.43" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -1126,12 +1122,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="64.77" y1="19.05" x2="58.42" y2="19.05" width="0.1524" layer="91"/>
 <label x="58.42" y="19.05" size="0.8128" layer="95"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="BTN" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="45.72" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NC" class="0">
