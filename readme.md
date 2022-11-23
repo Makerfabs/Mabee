@@ -41,7 +41,7 @@ This Mabee module is an air quality monitor. Based on SGP30, this module provide
 
 Product Link ：[Mabee_TVOC and eCO2 SGP30 & Temperature and Humidity SHT31](https://www.makerfabs.com/mabee-tvoc-and-eco2-sgp30-sht31.html)
 
-Wiki Link : [Mabee_CO2](https://www.makerfabs.com/wiki/index.php?title=Mabee_CO2)
+Wiki Link : [Mabee_CO2](https://wiki.makerfabs.com/Mabee_CO2.html)
 
 ## Mabee 6Aixs IMU MPU6050
 
